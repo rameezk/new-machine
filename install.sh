@@ -12,7 +12,7 @@ if [[ -z "$machine" ]]; then
     exit 1
 fi
 
-read -p "Is this a good question (y/n)? " answer
+read -r -p "Is this a good question (y/n)? " answer
 case ${answer:0:1} in
     y|Y )
         echo Yes
