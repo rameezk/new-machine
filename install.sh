@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+set -eo pipefail
+
 http_proxy="$http_proxy"
 
 function info {
