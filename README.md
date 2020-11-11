@@ -24,3 +24,6 @@ export https_proxy=$proxy
 ```
 3. Source the file with `source ~/.proxyrc`
 
+## References
+1. Based heavily off the work [here](https://github.com/hlissner/dotfiles). I chose to start from scratch, instead of just forking, because I wanted to learn NixOS (and flakes).
+
