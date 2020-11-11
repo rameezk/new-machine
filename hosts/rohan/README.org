@@ -1,0 +1,12 @@
+#+TITLE: Rohan
+
+* Overview
+A VM in Virtualbox used mainly for work.
+
+* Specs
+
+| CPU            | Dunno      |
+| Memory         | 8GB        |
+| Virtualization | Virtualbox |
+
+
