@@ -21,6 +21,9 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     chmod +x "$HOME/$machine-partition-and-mount.sh"
     "$HOME/$machine-partition-and-mount.sh"
 
+    info "Getting git"
+    nix-env -iA nixos.gitMinimal
+
     info "Cloning new-machine repo"
     if [[ -n "$http_proxy" ]] ; then
         info "Looks like you have a proxy set. Setting up git with basic auth for proxy."
