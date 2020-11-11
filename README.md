@@ -13,7 +13,7 @@
 ## Corporate Proxy
 If you're behind a corporate proxy you will need to do the following.
 
-1. Create a ~proxy~ file with `vim ~/.proxyrc`
+1. Create a _proxy_ file with `vim ~/.proxyrc`
 2. Add the following
 
 ``` sh
