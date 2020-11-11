@@ -14,8 +14,7 @@ fi
 
 info "Partitioning $machine."
 read -r -p "Are you sure? [y/N] " response
-if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]
-then
+if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]; then
     curl -s "https://raw.githubusercontent.com/rameezk/new-machine/master/hosts/$machine/partition-and-mount.sh" | sh
 else
     log "Ok. Bye."
