@@ -27,7 +27,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
         git config --global http.proxyAuthMethod 'basic'
     fi
 
-    git clone https://github.com/rameezk/new-machine /mnt/etc/nixos
+    sudo -E git clone https://github.com/rameezk/new-machine /mnt/etc/nixos
 fi
 
 
