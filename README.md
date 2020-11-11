@@ -1,2 +1,3 @@
 # new-machine
-A collection of scripts for setting up machines
+
+> A purely functional declaration of my machines using NixOS
