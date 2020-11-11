@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-echo "Hello World!"
+function info {
+    echo "[..] $1"
+}
+
+info "Cloning new-machine repo"
+git clone https://github.com/rameezk/new-machine
