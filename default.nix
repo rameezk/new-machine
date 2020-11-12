@@ -12,7 +12,7 @@
       nixos.flake = nixpkgs;
       nixpkgs.flake = nixpkgs-unstable;
     };
-    useSandbox true;
+    useSandbox = true;
   };
   system.configurationRevision= mkIf (self ? rev) self.rev;
   system.stateVersion = "20.09";
