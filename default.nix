@@ -14,7 +14,7 @@
     };
     useSandbox = true;
   };
-  system.configurationRevision= mkIf (self ? rev) self.rev;
+  system.configurationRevision = mkIf (self ? rev) self.rev;
   system.stateVersion = "20.09";
 
   fileSystems."/".device = "/dev/disk/by-label/nixos";
