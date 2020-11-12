@@ -1,5 +1,7 @@
 { config, lib, pkgs, ... }:
 
+with lib;
+with lib.my;
 {
   nix = {
     package = pkgs.nixFlakes;
