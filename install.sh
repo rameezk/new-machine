@@ -22,7 +22,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     "$HOME/$machine-partition-and-mount.sh"
 
     info "Getting git"
-    nix-env -iA nixos.gitMinimal
+    sudo -E nix-env -iA nixos.gitMinimal
 
     info "Cloning new-machine repo"
     if [[ -n "$http_proxy" ]] ; then
